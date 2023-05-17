@@ -8,7 +8,7 @@ tags: [React, Redux, JS]
 
 These rough notes on React and Redux were made whilst completing A sololearn course, and personal resarch.
 
-# Basics
+## Basics
 
 DOM - document object model
 
@@ -50,7 +50,7 @@ ReactDOM.render(
 );
 ```
 
-# Counter / second
+## Counter / second
 
 ```jsx
 let counter = 0; // initial value
@@ -123,7 +123,7 @@ function Counter(){
 ReactDOM.render(<Counter />, document.getElementById('root'));
 ```
 
-## Counter using redux
+### Counter using redux
 
 ```jsx
 import { Provider } from 'react-redux';
@@ -188,7 +188,7 @@ function App() {
 export default App;
 ```
 
-### Functions
+## Functions
 
 ```jsx
 function Hello() {
@@ -201,7 +201,7 @@ ReactDOM.render(
 );
 ```
 
-### Class components
+## Class components
 
 ```jsx
 class Hello extends React.Component {
@@ -223,7 +223,7 @@ class Hello extends React.Component {
 }
 ```
 
-### Props
+## Props
 
 components cannot modify their props
 
@@ -236,7 +236,7 @@ function hello(props){
 const el = <hello name="Alan"/>
 ```
 
-### State
+## State
 
 state is used for data where the value can change such as inputs
 
@@ -269,9 +269,9 @@ States values are updated using setState
 });
 ```
 
-### Hooks
+## Hooks
 
-use stake in functional components
+use state in functional components
 
 ```jsx
 import React, { useState } from 'react';
@@ -290,7 +290,7 @@ returns a pair, the current state value and a function, that lets you change the
 
 takes one argument, which is the initial value of the state.
 
-### Lifecycle Methods
+## Lifecycle Methods
 
 Called when components are:
 
@@ -312,7 +312,7 @@ is the process when a component is removed from the page.
 
 ### Use effect
 
-run when mounted, updated or unmounted a functional componant
+run when mounted, updated or unmounted a functional component
 
 have useEffect within the function
 
@@ -354,9 +354,9 @@ useEffect(() => {
 });
 ```
 
-# Events
+## Events
 
-button
+Button
 
 ```jsx
 function Counter() {
@@ -371,7 +371,7 @@ function Counter() {
 }
 ```
 
-text box
+Text box
 
 ```jsx
 function Converter() {
@@ -390,7 +390,7 @@ function Converter() {
 }
 ```
 
-forms
+Forms
 
 ```jsx
 function AddForm() {
@@ -411,7 +411,7 @@ function AddForm() {
 }
 ```
 
-# display each item from list
+## Display each item from list
 
 ```jsx
 function MyList(props) {
@@ -431,11 +431,11 @@ const listItems = arr.map((val, index) =>
 );
 ```
 
-# Redux
+## Redux
 
 Creates a single container of all states which can be assessed by all components
 
-## Store
+### Store
 
 state should be stored in object called store
 
@@ -460,7 +460,7 @@ You cannot change a state directly, you have to dispatch an action
     -   Cannot change state
     -   They modify state and return a new state object with the modifications
 
-## Actions and reducers
+### Actions and reducers
 
 Action:
 An action is a JSON object
@@ -593,7 +593,7 @@ connect
 const Counterer = connect(mapStateToProps, mapDispatchToProps)(Counter);
 ```
 
-# Structure - export files and maintain redux store
+## Structure - export files and maintain redux store
 
 -   Separate components
 -   you must export functions to use in other components
@@ -610,4 +610,4 @@ import Counter from './Counter';
 
 example
 
-[](https://stackblitz.com/edit/react-redux-counter-example-2?file=Counter.js)[https://stackblitz.com/edit/react-redux-counter-example-2?file=Counter.js](https://stackblitz.com/edit/react-redux-counter-example-2?file=Counter.js)
+[react redux counter example](https://stackblitz.com/edit/react-redux-counter-example-2?file=Counter.js) Made by [sololearninc](https://stackblitz.com/@sololearninc)
