@@ -13,3 +13,6 @@ tags: [Data Science]
 
 ## Uncertainty in the data
 Uncertainty in the data
+
+## Flash Cards
+<iframe src="https://quizlet.com/803477515/flashcards/embed?i=1oro1z&x=1jj1" height="500" width="100%" style="border:0"></iframe>
