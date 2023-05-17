@@ -3,6 +3,7 @@ layout: post
 title:  "Basics of React and Redux"
 date:   2023-02-02 12:11:31 +0100
 categories: React Redux
+tags: [React, Redux, JS]
 ---
 
 These rough notes on React and Redux were made whilst completing A sololearn course, and personal resarch.

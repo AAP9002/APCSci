@@ -2,7 +2,8 @@
 layout: post
 title:  "Notes for Data Science"
 date:   2023-05-16 12:11:31 +0100
-categories: Data Science
+categories: [Data Science, Notes]
+tags: [Data Sciencedd]
 ---
 # Contents
 1. [The Process](#theprocessheading)
