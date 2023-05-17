@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Notes for Data Science"
+title:  "Data Science"
+description: "Notes for Data science"
 date:   2023-05-16 12:11:31 +0100
-categories: [Data Science, Notes]
+categories: [Notes,Data Science]
 tags: [Data Science]
 math: true
 ---

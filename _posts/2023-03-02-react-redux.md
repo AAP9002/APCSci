@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Basics of React and Redux"
+description: "Quick guide and basic examples for using React and Redux"
 date:   2023-02-02 12:11:31 +0100
 categories: React Redux
 tags: [React, Redux, JS]
