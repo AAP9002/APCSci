@@ -7,9 +7,9 @@ tags: [Data Science]
 ---
 
 ## The Process
-![The Process Steps Mind Map]({{ "/assets/Notes_for_Data_Science/Data%20Science%20The%20Process.png" | prepend: site.baseurl | prepend: site.url}})
+![The Process Steps Mind Map](/Notes_for_Data_Science/Data%20Science%20The%20Process.png)
 
-[The Process Steps Mind Map]({{ "/assets/Notes_for_Data_Science/Data%20Science%20The%20Process.png" | prepend: site.baseurl | prepend: site.url}}) Created by A.Prophett
+*The Process Steps Mind Map Created by A.Prophett*
 
 ## Uncertainty in the data
 Uncertainty in the data
