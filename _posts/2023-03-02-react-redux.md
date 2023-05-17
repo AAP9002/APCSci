@@ -465,7 +465,7 @@ You cannot change a state directly, you have to dispatch an action
 Action:
 An action is a JSON object
 
-```JSON
+```json
 {
 	type:'Add_EMPLOYEE',
 	name: 'John'
@@ -476,7 +476,7 @@ Actions can be dispatched from anywhere in the app as a ‘payload of informatio
 
 Type written in snake case as standard
 
-```JSON
+```json
 {
 	type:'Add_EMPLOYEE',
 	payload:{
