@@ -14,7 +14,7 @@ math: true
 *The Process Steps Mind Map Created by A.Prophett*
 
 ## Uncertainty in the data
-![Uncertainty in the data Mind Map](Notes_for_Data_Science/Uncertainty%20in%20the%20data.png)
+![Uncertainty in the data Mind Map](/Notes_for_Data_Science/Uncertainty%20in%20the%20data.png)
 *Uncertainty in the data Mind Map Created by A.Prophett*
 
 
