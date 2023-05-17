@@ -611,3 +611,6 @@ import Counter from './Counter';
 example
 
 [react redux counter example](https://stackblitz.com/edit/react-redux-counter-example-2?file=Counter.js) Made by [sololearninc](https://stackblitz.com/@sololearninc)
+
+> This post has not been verified and may contain false information and opinions. Any corrections and improvements are welcome. Please see [About](/about) for details.
+{: .prompt-warning }
