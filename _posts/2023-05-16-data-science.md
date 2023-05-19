@@ -22,19 +22,25 @@ math: true
 <iframe src="https://quizlet.com/803477515/flashcards/embed?i=1oro1z&x=1jj1" height="500" width="100%" style="border:0"></iframe>
 
 ## Formulas
-SD
+**SD of population mean**
 
 $$
 \sigma = \sqrt{\frac{\sum(X-\mu)^2}{N}}
 $$
 
-SEM
+X= each value
+
+$\mu$ = Population mean mean
+
+N= Population size
+
+**SEM and the SD of** Empirical mean
 
 $$
 SEM=\frac{SD}{\sqrt{n}}
 $$
 
-Bayes Rule
+**Bayes Rule**
 
 $$
 P(HYP|DATA)=\frac{P(DATA|HYP)P(HYP)}{P(DATA)}
@@ -51,9 +57,15 @@ $$
 P(Data)=P(data|HYP_1)+P(data|HYP_2)+...P(data|HYP_N)\\=\sum_{i=0}^{hyp \space count}P(data|HYP_i)
 $$
 
-C**ombining variables**
+P(Data) with a continuous set of hypotheses
 
-Adding Variances (IFF X and Y are independent)
+$$
+P(Data) = \int_{h\in \mathbb Hypothosis} P(Data|h)P(h)
+$$
+
+**Combining variables**
+
+Adding Standard Deviation (IFF X and Y are independent)
 
 $$
 \sigma_z=\sqrt{\sigma_x^2+\sigma_y^2}
@@ -63,6 +75,12 @@ Adding means
 
 $$
 \mu_z=\mu_x+\mu_y
+$$
+
+Adding Variances (IFF X and Y are independent)
+
+$$
+\sigma_z^2=\sigma_x^2+\sigma_y^2
 $$
 
 
